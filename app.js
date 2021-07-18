@@ -78,7 +78,7 @@ passport.use(new GoogleStrategy({
 app.get("/",function(req,res){
   // if autheniticated can send to secrets
   if(req.isAuthenticated()){
-    res.render("secrets");
+    res.redirect("/secrets");
   }
   else{
   res.render("home");
