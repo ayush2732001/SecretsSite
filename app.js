@@ -216,11 +216,3 @@ app.post("/register",function(req,res){
 app.listen(3000,function(){
   console.log("Server started on port 3000.");
 });
-
-
-
-// client id
-//139302093807-966i74ootv9mrfrrgvp42p6hnggg1d9g.apps.googleusercontent.com
-
-//client secret
-// UulGnzyDteP4X3gXvVu0kBu6
